@@ -1,0 +1,41 @@
+<div class="min-h-screen flex items-center justify-center bg-base-200 px-4">
+  <div class="max-w-md w-full text-center p-8 bg-base-100 rounded-2xl shadow-xl border border-base-300 relative overflow-hidden backdrop-blur-md">
+    <!-- Decorative background glow -->
+    <div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-secondary/10 rounded-full blur-3xl"></div>
+
+    <div class="relative z-10">
+      <!-- Icon with animation -->
+      <div class="flex justify-center mb-6">
+        <div class="p-4 bg-error/10 text-error rounded-full animate-pulse">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Large 404 Text -->
+      <h1 class="text-9xl font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent drop-shadow-sm select-none">
+        404
+      </h1>
+
+      <h2 class="text-2xl font-bold mt-4 mb-2 text-base-content">
+        Page Not Found
+      </h2>
+
+      <p class="text-base-content/70 mb-8 leading-relaxed">
+        Oops! The page you are looking for has vanished into thin air, or never existed in the first place.
+      </p>
+
+      <!-- Action Button -->
+      <div class="flex justify-center">
+        <button (click)="goBack()" class="btn btn-primary px-8 shadow-lg hover:shadow-primary/30 hover:scale-105 transition-all duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+          </svg>
+          Back to Home
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
