@@ -1,4 +1,4 @@
 {
-  "dotnet.server.useOmnisharp": true,
   "files.autoSave": "afterDelay"
 }
+

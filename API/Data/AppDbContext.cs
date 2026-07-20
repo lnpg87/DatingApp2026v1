@@ -9,5 +9,7 @@ namespace API.Data
 
         // Example DbSet - replace or extend with real entities
         public DbSet<AppUser> Users { get; set; }
+		public DbSet<Member> Members { get; set; }
+		public DbSet<Photo> Photos { get; set; }
 	}
 }
